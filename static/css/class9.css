@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(248, 248, 248);
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: rgb(184, 182, 182);
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+.sec {
+    gap: 50px;
+}
+
+.sec h1 {
+    color: #35424a;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    font-size: 2em;
+}
+
+.heading {
+    margin-top: 70px;
+}
+
+.sec ol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sec ol li {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.sec ol a {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    color: inherit;
+    font-size: 1.3em;
+}
+
+#sylbs,
+#ch1,
+#ch2,
+#ch3,
+#ch4,
+#ch5,
+#ch6,
+#ch7,
+#ch8,
+#ch9,
+#ch10,
+#ch11,
+#ch12 {
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#sylbs {
+    background-color: greenyellow;
+
+    &:hover {
+        background-color: yellowgreen;
+        transform: scale(1.1);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+}
+
+#ch1 {
+    background-color: lightblue;
+}
+
+#ch1:hover {
+    background-color: deepskyblue;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#ch2 {
+    background-color: lightcoral;
+}
+
+#ch2:hover {
+    background-color: indianred;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#ch3 {
+    background-color: lightgreen;
+}
+
+#ch3:hover {
+    background-color: limegreen;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#ch4 {
+    background-color: lightsteelblue;
+}
+
+#ch4:hover {
+    background-color: cornflowerblue;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#ch5 {
+    background-color: lightpink;
+}
+
+#ch5:hover {
+    background-color: hotpink;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#ch6 {
+    background-color: lightsalmon;
+}
+
+#ch6:hover {
+    background-color: salmon;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#ch7 {
+    background-color: yellow;
+}
+
+#ch7:hover {
+    background-color: gold;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#ch8 {
+    background-color: thistle;
+}
+
+#ch8:hover {
+    background-color: mediumorchid;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#ch9 {
+    background-color: aquamarine;
+}
+
+#ch9:hover {
+    background-color: mediumaquamarine;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#ch10 {
+    background-color: khaki;
+}
+
+#ch10:hover {
+    background-color: darkkhaki;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#ch11 {
+    background-color: peachpuff;
+}
+
+#ch11:hover {
+    background-color: coral;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#ch12 {
+    background-color: lightgray;
+}
+
+#ch12:hover {
+    background-color: silver;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
