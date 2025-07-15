@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-}
+} 
 
 body {
     line-height: 1.6;
@@ -63,7 +63,81 @@ h1, h2 {
     color: #35424a;
 }
 
-table {
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.content a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.sub:hover {
+    transform: scale(1.1);
+}
+
+.sub {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+    margin: 60px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+.sub h2{
+    margin-top: 95px;
+    padding-left: 55px;
+}
+
+#cls6_1 {
+    background-color: peachpuff;
+    box-shadow: 15px 15px 10px grey;
+
+}
+
+#cls6_2 {
+    background-color: lightblue;
+    box-shadow: 10px 10px 10px grey;
+}
+
+#cls6_3 {
+    background-color: lightgreen;
+    box-shadow: 10px 10px 10px grey;
+}
+
+#cls6_4 {
+    background-color: lightpink;
+    box-shadow: 10px 10px 10px grey;
+}
+
+#cls6_5 {
+    background-color: aquamarine;
+    box-shadow: 10px 10px 10px grey;
+}
+
+#cls6_6 {
+    background-color: lightsalmon;
+    box-shadow: 10px 10px 10px grey;
+}
+
+#cls6_7 {
+    background-color: lightcoral;
+    box-shadow: 10px 10px 10px grey;
+}
+
+#cls6_8 {
+    background-color: lightsteelblue;
+    box-shadow: 10px 10px 10px grey;
+}
+
+/* table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
@@ -82,7 +156,7 @@ table th {
 
 table tr:nth-child(even) {
     background-color: #f2f2f2;
-}
+} */
 
 footer {
     background: #35424a;
