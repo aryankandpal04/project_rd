@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-} 
+}
 
 body {
     line-height: 1.6;
@@ -59,7 +59,8 @@ section {
     margin-bottom: 20px;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: #35424a;
 }
 
@@ -83,17 +84,21 @@ h1, h2 {
 
 .sub {
     display: flex;
+    justify-content: center;
+    align-items: cen;
     flex-direction: column;
     height: 250px;
     width: 250px;
     margin: 60px;
     border-radius: 50px;
     cursor: pointer;
-    transition: transform 0.4s;
+    transition: transform 0.4s;/
 }
-.sub h2{
-    margin-top: 95px;
-    padding-left: 55px;
+
+.sub h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #cls6_1 {
